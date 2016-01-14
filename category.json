@@ -1,0 +1,17 @@
+[
+	{"name": "Racing",
+		"tags": ["racing", "race", "melges", "laser", "beer can", "olympic", "cup", "class", "record",
+						"hall of fame", "regatta", "moth", "hugo boss", "vendee globe"]},
+	{"name": "Cruising",
+		"tags": ["cruising", "live aboard", "cruiser", "adventure", "bitchin", "boating"]},
+	{"name": "History",
+		"tags": ["history"]},
+	{"name": "Education",
+		"tags": ["education"]},
+	{"name": "Photography",
+		"tags": ["photography", "photo", "pic", "picture"]},
+	{"name": "Audio",
+		"tags": ["audio", "podcast"]},
+	{"name": "Video",
+		"tags": ["video"]}
+]

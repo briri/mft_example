@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+	head
+		title= appName
+	
+		script(type='text/javascript', src='http://0.0.0.0:5001/socket.io/socket.io.js')
+	
+		script(type='text/javascript', src='/jquery/dist/jquery.min.js')
+		script(type='text/javascript', src='/bootstrap/dist/js/bootstrap.min.js')
+		script(type='text/javascript', src='/delivery/lib/client/delivery.js')
+
+		script(type='text/javascript', src='/js/mft.js')
+
+	body
+		h3 Hello World
+		
+		#container.col
+			label File:
+			input(type='file', id='uploader', multiple)

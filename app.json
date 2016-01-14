@@ -1,0 +1,24 @@
+{
+  "server": {
+    "port": 3000
+  },
+  "log": {
+    "level": "debug",
+    "path": "./log/"
+  },
+	"database": {
+		"host": "localhost",
+		"dialect": "mysql",
+		"name": "news_agg",
+		"user": "root",
+		"password": "",
+		"pool-min": 0,
+		"pool-max": 5,
+		"seed": true,
+		"seed-file": "private/db_seed.json",
+		"logging": false
+	},
+	"sweeper": {
+		"frequency-min": 15
+	}
+}

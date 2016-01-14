@@ -1,0 +1,13 @@
+{
+  "name": "mft",
+  "description": "File transfer via node.js",
+  "version": "1.0.0",
+  "homepage": "",
+  "license": "BSD",
+  "private": true,
+
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "jquery": "~2.2.0"
+  }
+}
