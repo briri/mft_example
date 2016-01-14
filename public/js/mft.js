@@ -12,7 +12,7 @@ $(function(){
 		        label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
 		
 				for(var i = 0; i < numFiles; i++){
-					var file = input[0].files[i];
+					var file = input[i].files[0];
 					var params = {foo: "bar"};
 					
 					delivery.send(file, params);
