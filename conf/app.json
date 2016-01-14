@@ -1,5 +1,6 @@
 {
 	"application_name": "MFT Example",
+	"host": "localhost",
 	"port": 5001,
 	
 	"aws": {"region": "us-west-2",

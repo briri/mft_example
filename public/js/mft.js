@@ -1,5 +1,5 @@
 $(function(){	
-	var socket = io.connect('http://0.0.0.0:');
+	var socket = io.connect(host);
   
   socket.on('connect', function(){
     var delivery = new Delivery(socket);
